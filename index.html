@@ -1,1 +1,175 @@
-#pricing
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crown AI - Automazione WhatsApp per Agenzie Immobiliari</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #0b0f19; color: #f3f4f6; }
+        .glow-effect { box-shadow: 0 0 50px -10px rgba(59, 130, 246, 0.15); }
+        .gold-gradient { background: linear-gradient(135deg, #d4af37 0%, #f3e5ab 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+<body class="bg-[#0b0f19] text-gray-100 antialiased selection:bg-blue-500 selection:text-white">
+
+    <!-- HEADER / NAV -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-[#0b0f19]/80 backdrop-blur-md border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <span class="text-2xl font-extrabold tracking-wider text-white">CROWN<span class="text-blue-500">.AI</span></span>
+            </div>
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-gray-300">
+                <a href="#features" class="hover:text-white transition">Come Funziona</a>
+                <a href="#simulator" class="hover:text-white transition">Simulatore Live</a>
+                <a href="#pricing" class="hover:text-white transition">Prezzi</a>
+            </nav>
+            <div>
+                <a href="https://wa.me/393333333333?text=Salve,%20vorrei%20ricevere%20maggiori%20informazioni%20su%20Crown%20AI" target="_blank" class="bg-blue-600 hover:bg-blue-500 text-white font-semibold px-5 py-2.5 rounded-xl text-sm transition shadow-lg shadow-blue-600/20">
+                    Contatta il Team
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="pt-32 pb-20 md:pt-44 md:px-6 relative overflow-hidden">
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-blue-600/10 rounded-full blur-3xl pointer-events-none"></div>
+        
+        <div class="max-w-5xl mx-auto text-center px-6 relative z-10">
+            <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-semibold mb-6 tracking-wide uppercase">
+                <span>PropTech & AI per il Real Estate</span>
+            </div>
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white mb-6 leading-tight">
+                Qualifica i tuoi lead immobiliari su WhatsApp <span class="text-blue-500">24 ore su 24</span>.
+            </h1>
+            <p class="text-lg md:text-xl text-gray-400 mb-10 max-w-3xl mx-auto">
+                Basta perdere ore al telefono con curiosi e perditempo. Il nostro assistente IA filtra i proprietari di casa prima che i tuoi agenti impegnino un solo minuto.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="#simulator" class="w-full sm:w-auto bg-blue-600 hover:bg-blue-500 text-white font-bold px-8 py-4 rounded-xl text-base transition shadow-xl shadow-blue-600/30 text-center">
+                    Prova il Bot dal Vivo 👇
+                </a>
+                <a href="#pricing" class="w-full sm:w-auto bg-gray-800 hover:bg-gray-700 text-gray-200 font-semibold px-8 py-4 rounded-xl text-base transition border border-gray-700 text-center">
+                    Scopri i Listini
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHATSAPP SIMULATOR -->
+    <section id="simulator" class="py-20 bg-[#070913] border-y border-gray-800">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-white mb-3">Guarda l'IA in azione</h2>
+                <p class="text-gray-400 text-sm md:text-base">Ecco come il bot dialoga in autonomia con un potenziale venditore su WhatsApp.</p>
+            </div>
+
+            <!-- Mockup Smartphone -->
+            <div class="max-w-md mx-auto bg-[#111827] rounded-3xl border border-gray-800 shadow-2xl overflow-hidden glow-effect">
+                <div class="bg-gray-900 px-6 py-4 border-b border-gray-800 flex items-center space-x-3">
+                    <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                    <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                    <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                    <div class="text-xs text-gray-400 font-medium ml-2">WhatsApp - Crown AI Assistant</div>
+                </div>
+                <div class="p-6 space-y-4 h-[420px] overflow-y-auto text-sm">
+                    <div class="flex justify-start">
+                        <div class="bg-gray-800 text-gray-200 p-3.5 rounded-2xl max-w-[80%] rounded-tl-none">
+                            Buongiorno! Ho visto il vostro annuncio per la valutazione gratuita della casa. Vorrei capire quanto vale il mio appartamento.
+                        </div>
+                    </div>
+                    <div class="flex justify-end">
+                        <div class="bg-blue-600 text-white p-3.5 rounded-2xl max-w-[80%] rounded-tr-none">
+                            Buongiorno! Certamente. Per darle una stima precisa, mi conferma in quale zona si trova l'immobile? 🏙️
+                        </div>
+                    </div>
+                    <div class="flex justify-start">
+                        <div class="bg-gray-800 text-gray-200 p-3.5 rounded-2xl max-w-[80%] rounded-tl-none">
+                            Si trova in centro a Milano, zona Duomo trilocale.
+                        </div>
+                    </div>
+                    <div class="flex justify-end">
+                        <div class="bg-blue-600 text-white p-3.5 rounded-2xl max-w-[80%] rounded-tr-none">
+                            Ottima zona. Entro quanto tempo avrebbe l'esigenza di concludere la vendita? ⏱️
+                        </div>
+                    </div>
+                    <div class="flex justify-start">
+                        <div class="bg-gray-800 text-gray-200 p-3.5 rounded-2xl max-w-[80%] rounded-tl-none">
+                            Entro i prossimi 3 mesi, ho già visto un'altra soluzione.
+                        </div>
+                    </div>
+                    <div class="flex justify-end">
+                        <div class="bg-blue-600 text-white p-3.5 rounded-2xl max-w-[80%] rounded-tr-none">
+                            Perfetto, lead altamente qualificato 🎯 Ho appena avvisato il nostro referente di zona che la ricontatterà telefonicamente entro 10 minuti per fissare il sopralluogo!
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 bg-gray-900 border-t border-gray-800 text-center">
+                    <a href="https://wa.me/393333333333?text=Vorrei%20testare%20il%20bot%20per%20la%20mia%20agenzia" target="_blank" class="text-xs text-blue-400 hover:underline font-semibold">
+                        📲 Vuoi testare il flusso con i dati della tua agenzia? Clicca qui
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing" class="py-24">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Investimento Trasparente</h2>
+                <p class="text-gray-400">Soluzioni su misura per agenzie immobiliari focalizzate sui risultati.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <!-- Piano Starter -->
+                <div class="bg-[#111827] border border-gray-800 rounded-3xl p-8 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-xl font-bold text-white mb-2">Starter Agency</h3>
+                        <p class="text-gray-400 text-sm mb-6">Ideale per agenzie singole che vogliono automatizzare la prima risposta.</p>
+                        <div class="text-3xl font-extrabold text-white mb-6">€700 <span class="text-sm font-normal text-gray-400">setup + €150/mo</span></div>
+                        <ul class="space-y-3 text-sm text-gray-300 mb-8">
+                            <li class="flex items-center">✓ Bot WhatsApp 24/7 personalizzato</li>
+                            <li class="flex items-center">✓ Qualificazione automatica in 3 step</li>
+                            <li class="flex items-center">✓ Notifica istantanea agli agenti</li>
+                            <li class="flex items-center">✓ Manutenzione e aggiornamenti inclusi</li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/393333333333?text=Salve,%20scelgo%20il%20pacchetto%20Starter%20Agency" target="_blank" class="w-full bg-gray-800 hover:bg-gray-700 text-white font-semibold py-3 rounded-xl text-center transition border border-gray-700">
+                        Attiva Starter
+                    </a>
+                </div>
+
+                <!-- Piano Full -->
+                <div class="bg-[#111827] border-2 border-blue-500 rounded-3xl p-8 flex flex-col justify-between relative glow-effect">
+                    <div class="absolute -top-3.5 right-8 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                        Più Scelto
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-white mb-2">Full Automation</h3>
+                        <p class="text-gray-400 text-sm mb-6">Per agenzie strutturate che vogliono spingere al massimo l'acquisizione.</p>
+                        <div class="text-3xl font-extrabold text-white mb-6">€1.200 <span class="text-sm font-normal text-gray-400">setup + €300/mo</span></div>
+                        <ul class="space-y-3 text-sm text-gray-300 mb-8">
+                            <li class="flex items-center">✓ Tutto ciò che è incluso in Starter</li>
+                            <li class="flex items-center">✓ Integrazione CRM immobiliare</li>
+                            <li class="flex items-center">✓ Campagna di recupero database storico</li>
+                            <li class="flex items-center">✓ Funnel avanzato per proprietari venditori</li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/393333333333?text=Salve,%20scelgo%20il%20pacchetto%20Full%20Automation" target="_blank" class="w-full bg-blue-600 hover:bg-blue-500 text-white font-semibold py-3 rounded-xl text-center transition shadow-lg shadow-blue-600/30">
+                        Attiva Full Automation
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-[#070913] border-t border-gray-800 py-12 text-center text-sm text-gray-500">
+        <p>© 2026 Crown AI. Tutti i diritti riservati.</p>
+    </footer>
+
+</body>
+</html>
