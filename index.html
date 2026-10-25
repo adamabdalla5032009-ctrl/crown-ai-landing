@@ -49,49 +49,68 @@
     </div>
 </section>
 
-<!-- Stili CSS dedicati -->
+<!-- Stili CSS corretti e allineati -->
 <style>
 .pricing-container {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
-    font-family: sans-serif;
-    margin: 40px 0;
-    flex-wrap: wrap;
+    align-items: stretch;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    margin: 40px auto;
+    max-width: 800px;
 }
 .pricing-card {
-    background: #f9f9f9;
-    padding: 25px;
-    border-radius: 10px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
     text-align: center;
-    border: 1px solid #e1e1e1;
-    min-width: 250px;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+    flex: 1;
+    min-width: 280px;
+}
+.pricing-card h3 {
+    margin-top: 0;
+    font-size: 1.25rem;
+    color: #111;
+}
+.price {
+    margin: 20px 0;
 }
 .old-price {
     text-decoration: line-through;
     color: #999;
     font-size: 1.1rem;
-    margin-right: 10px;
+    margin-right: 12px;
 }
 .final-price {
     color: #27ae60;
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: bold;
 }
+.description {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
 .why-us {
-    padding: 40px 20px;
+    padding: 50px 20px;
     max-width: 1000px;
     margin: 0 auto;
-    font-family: sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     text-align: center;
 }
 .why-us h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     margin-bottom: 10px;
+    color: #111;
 }
 .subtitle {
     color: #666;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    font-size: 1.05rem;
 }
 .benefits-grid {
     display: grid;
@@ -101,19 +120,21 @@
 }
 .benefit-box {
     background: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
+    padding: 25px;
+    border-radius: 10px;
     border: 1px solid #eaeaea;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
 }
 .benefit-box h3 {
     font-size: 1.1rem;
-    margin-bottom: 10px;
-    color: #222;
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #111;
 }
 .benefit-box p {
     font-size: 0.95rem;
     color: #555;
-    line-height: 1.4;
+    line-height: 1.5;
+    margin: 0;
 }
 </style>
